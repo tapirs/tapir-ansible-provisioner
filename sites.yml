@@ -1,0 +1,7 @@
+---
+
+- name: setup docker box
+  hosts: all
+  remote_user: vagrant
+  roles:
+    - docker
